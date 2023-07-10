@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Semester 02/Computer Organization And digital Design/New Labs/New Lab 02/lab2/lab2.srcs/sources_1/new/Circuit2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Circuit2
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Semester 02/Computer Organization And digital Design/New Labs/New Lab 02/lab2/lab2.srcs/sim_1/new/Circuit2Sim.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Circuit2Sim
