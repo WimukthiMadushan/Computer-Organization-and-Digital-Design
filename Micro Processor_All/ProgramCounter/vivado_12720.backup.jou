@@ -1,0 +1,61 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sat Jun  3 23:08:38 2023
+# Process ID: 12720
+# Current directory: D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/ProgramCounter
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1820 D:\Semester 02\Computer Organization And digital Design\New Labs\Micro Processor\ProgramCounter\ProgramCounter.xpr
+# Log file: D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/ProgramCounter/vivado.log
+# Journal file: D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/ProgramCounter\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/ProgramCounter/ProgramCounter.xpr}
+update_compile_order -fileset sources_1
+import_files -force -norecurse {{D:/Semester 02/Computer Organization And digital Design/New Labs/New Lab 05/lab5/lab5.srcs/sources_1/new/D_FF.vhd}}
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+launch_simulation
+source Program_Counter_TB.tcl
+export_ip_user_files -of_objects  [get_files {{D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/ProgramCounter/ProgramCounter.srcs/sim_1/new/Program_Counter_TB.vhd}}] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 {{D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/ProgramCounter/ProgramCounter.srcs/sim_1/new/Program_Counter_TB.vhd}}
+file delete -force {D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/ProgramCounter/ProgramCounter.srcs/sim_1/new/Program_Counter_TB.vhd}
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open {D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/ProgramCounter/ProgramCounter.srcs/sim_1/new/Program_Counter_TB.vhd} w ]
+add_files -fileset sim_1 {{D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/ProgramCounter/ProgramCounter.srcs/sim_1/new/Program_Counter_TB.vhd}}
+update_compile_order -fileset sim_1
+launch_simulation
+source ProgramCounter.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top Program_Counter_TB [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+current_sim simulation_1
+close_sim
+launch_simulation
+source Program_Counter_TB.tcl
+close_sim
+launch_simulation
+source Program_Counter_TB.tcl
+close_sim
+close_sim

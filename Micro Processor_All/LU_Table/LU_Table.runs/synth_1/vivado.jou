@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Fri Jun  2 23:07:24 2023
+# Process ID: 4836
+# Current directory: D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/LU_Table/LU_Table.runs/synth_1
+# Command line: vivado.exe -log LU_Table.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source LU_Table.tcl
+# Log file: D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/LU_Table/LU_Table.runs/synth_1/LU_Table.vds
+# Journal file: D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/LU_Table/LU_Table.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source LU_Table.tcl -notrace

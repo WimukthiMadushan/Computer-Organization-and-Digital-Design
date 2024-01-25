@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="MicroProcesser_TB_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="MicroProcesser_TB" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="320483750fs"></ZoomEndTime>
+      <Cursor1Time time="1000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="111"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="12" />
+   <wvobject fp_name="/MicroProcesser_TB/MicroProcesser_0/slow_clock_0/Clk_in" type="logic">
+      <obj_property name="ElementShortName">Clk_in</obj_property>
+      <obj_property name="ObjectShortName">Clk_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MicroProcesser_TB/MicroProcesser_0/slow_clock_0/Clk_out" type="logic">
+      <obj_property name="ElementShortName">Clk_out</obj_property>
+      <obj_property name="ObjectShortName">Clk_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MicroProcesser_TB/MicroProcesser_0/slow_clock_0/count" type="other">
+      <obj_property name="ElementShortName">count</obj_property>
+      <obj_property name="ObjectShortName">count</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MicroProcesser_TB/MicroProcesser_0/slow_clock_0/clk_status" type="logic">
+      <obj_property name="ElementShortName">clk_status</obj_property>
+      <obj_property name="ObjectShortName">clk_status</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MicroProcesser_TB/MicroProcesser_0/LUT_16_7_0/address" type="array">
+      <obj_property name="ElementShortName">address[3:0]</obj_property>
+      <obj_property name="ObjectShortName">address[3:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/MicroProcesser_TB/MicroProcesser_0/LUT_16_7_0/sevenSegment_ROM" type="array">
+      <obj_property name="ElementShortName">sevenSegment_ROM[0:15][6:0]</obj_property>
+      <obj_property name="ObjectShortName">sevenSegment_ROM[0:15][6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MicroProcesser_TB/Clock" type="logic">
+      <obj_property name="ElementShortName">Clock</obj_property>
+      <obj_property name="ObjectShortName">Clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MicroProcesser_TB/ResPC" type="logic">
+      <obj_property name="ElementShortName">ResPC</obj_property>
+      <obj_property name="ObjectShortName">ResPC</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MicroProcesser_TB/OVERFLOW" type="logic">
+      <obj_property name="ElementShortName">OVERFLOW</obj_property>
+      <obj_property name="ObjectShortName">OVERFLOW</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MicroProcesser_TB/ZERO" type="logic">
+      <obj_property name="ElementShortName">ZERO</obj_property>
+      <obj_property name="ObjectShortName">ZERO</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MicroProcesser_TB/LED" type="array">
+      <obj_property name="ElementShortName">LED[3:0]</obj_property>
+      <obj_property name="ObjectShortName">LED[3:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/MicroProcesser_TB/Seg_7" type="array">
+      <obj_property name="ElementShortName">Seg_7[6:0]</obj_property>
+      <obj_property name="ObjectShortName">Seg_7[6:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+</wave_config>

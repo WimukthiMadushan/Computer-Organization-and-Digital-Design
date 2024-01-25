@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Micro processer.srcs/sources_1/imports/new/InstDecoder.vhd" \
+"../../../../Micro processer.srcs/sim_1/new/InstDecoder_TB.vhd" \
+
+# Do not sort compile order
+nosort

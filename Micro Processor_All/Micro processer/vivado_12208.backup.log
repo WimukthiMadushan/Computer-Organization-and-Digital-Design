@@ -1,0 +1,474 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sat Jun 10 21:16:27 2023
+# Process ID: 12208
+# Current directory: D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/Micro processer
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18616 D:\Semester 02\Computer Organization And digital Design\New Labs\Micro Processor\Micro processer\Micro processer.xpr
+# Log file: D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/Micro processer/vivado.log
+# Journal file: D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/Micro processer\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/Micro processer/Micro processer.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/Micro processer'
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'.
+update_compile_order -fileset sources_1
+set_property top ProgramCounter [current_fileset]
+update_compile_order -fileset sources_1
+set_property top ProgramCounter_TB [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/Micro processer/Micro processer.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'ProgramCounter_TB' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/Micro processer/Micro processer.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj ProgramCounter_TB_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/Micro processer/Micro processer.srcs/sim_1/new/ProgramCounter_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ProgramCounter_TB
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/Micro processer/Micro processer.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 40e1a9a7d15d40fd86ecd75a1aa0009c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ProgramCounter_TB_behav xil_defaultlib.ProgramCounter_TB -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling architecture behavioral of entity xil_defaultlib.ProgramCounter [programcounter_default]
+Compiling architecture behavioral of entity xil_defaultlib.programcounter_tb
+Built simulation snapshot ProgramCounter_TB_behav
+
+****** Webtalk v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source D:/Semester -notrace
+couldn't read file "D:/Semester": no such file or directory
+INFO: [Common 17-206] Exiting Webtalk at Sat Jun 10 21:46:49 2023...
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/Micro processer/Micro processer.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "ProgramCounter_TB_behav -key {Behavioral:sim_1:Functional:ProgramCounter_TB} -tclbatch {ProgramCounter_TB.tcl} -view {{D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/Micro processer/MicroProcesser_TB_behav.wcfg}} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+open_wave_config {D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/Micro processer/MicroProcesser_TB_behav.wcfg}
+WARNING: Simulation object /MicroProcesser_TB/Clock was not found in the design.
+WARNING: Simulation object /MicroProcesser_TB/ResPC was not found in the design.
+WARNING: Simulation object /MicroProcesser_TB/OVERFLOW was not found in the design.
+WARNING: Simulation object /MicroProcesser_TB/ZERO was not found in the design.
+WARNING: Simulation object /MicroProcesser_TB/LED was not found in the design.
+WARNING: Simulation object /MicroProcesser_TB/MicroProcesser_0/RegisterBank_0/Clock was not found in the design.
+WARNING: Simulation object /MicroProcesser_TB/MicroProcesser_0/RegisterBank_0/RegEn was not found in the design.
+WARNING: Simulation object /MicroProcesser_TB/MicroProcesser_0/RegisterBank_0/D_Bank was not found in the design.
+WARNING: Simulation object /MicroProcesser_TB/MicroProcesser_0/RegisterBank_0/Q_Bank_0 was not found in the design.
+WARNING: Simulation object /MicroProcesser_TB/MicroProcesser_0/RegisterBank_0/Q_Bank_1 was not found in the design.
+WARNING: Simulation object /MicroProcesser_TB/MicroProcesser_0/RegisterBank_0/Q_Bank_2 was not found in the design.
+WARNING: Simulation object /MicroProcesser_TB/MicroProcesser_0/RegisterBank_0/Q_Bank_3 was not found in the design.
+WARNING: Simulation object /MicroProcesser_TB/MicroProcesser_0/RegisterBank_0/Q_Bank_4 was not found in the design.
+WARNING: Simulation object /MicroProcesser_TB/MicroProcesser_0/RegisterBank_0/Q_Bank_5 was not found in the design.
+WARNING: Simulation object /MicroProcesser_TB/MicroProcesser_0/RegisterBank_0/Q_Bank_6 was not found in the design.
+WARNING: Simulation object /MicroProcesser_TB/MicroProcesser_0/RegisterBank_0/Q_Bank_7 was not found in the design.
+WARNING: Simulation object /MicroProcesser_TB/MicroProcesser_0/RegisterBank_0/Y was not found in the design.
+WARNING: Simulation object /MicroProcesser_TB/MicroProcesser_0/LUT_16_7_0/address was not found in the design.
+WARNING: Simulation object /MicroProcesser_TB/MicroProcesser_0/LUT_16_7_0/data was not found in the design.
+WARNING: Simulation object /MicroProcesser_TB/MicroProcesser_0/LUT_16_7_0/sevenSegment_ROM was not found in the design.
+WARNING: Simulation object /MicroProcesser_TB/Seg_7 was not found in the design.
+source ProgramCounter_TB.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'ProgramCounter_TB_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:09 . Memory (MB): peak = 912.824 ; gain = 10.320
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/Micro processer/Micro processer.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'ProgramCounter_TB' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/Micro processer/Micro processer.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj ProgramCounter_TB_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/Micro processer/Micro processer.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 40e1a9a7d15d40fd86ecd75a1aa0009c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ProgramCounter_TB_behav xil_defaultlib.ProgramCounter_TB -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/Micro processer/Micro processer.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "ProgramCounter_TB_behav -key {Behavioral:sim_1:Functional:ProgramCounter_TB} -tclbatch {ProgramCounter_TB.tcl} -view {{D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/Micro processer/MicroProcesser_TB_behav.wcfg}} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+open_wave_config {D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/Micro processer/MicroProcesser_TB_behav.wcfg}
+WARNING: Simulation object /MicroProcesser_TB/Clock was not found in the design.
+WARNING: Simulation object /MicroProcesser_TB/ResPC was not found in the design.
+WARNING: Simulation object /MicroProcesser_TB/OVERFLOW was not found in the design.
+WARNING: Simulation object /MicroProcesser_TB/ZERO was not found in the design.
+WARNING: Simulation object /MicroProcesser_TB/LED was not found in the design.
+WARNING: Simulation object /MicroProcesser_TB/MicroProcesser_0/RegisterBank_0/Clock was not found in the design.
+WARNING: Simulation object /MicroProcesser_TB/MicroProcesser_0/RegisterBank_0/RegEn was not found in the design.
+WARNING: Simulation object /MicroProcesser_TB/MicroProcesser_0/RegisterBank_0/D_Bank was not found in the design.
+WARNING: Simulation object /MicroProcesser_TB/MicroProcesser_0/RegisterBank_0/Q_Bank_0 was not found in the design.
+WARNING: Simulation object /MicroProcesser_TB/MicroProcesser_0/RegisterBank_0/Q_Bank_1 was not found in the design.
+WARNING: Simulation object /MicroProcesser_TB/MicroProcesser_0/RegisterBank_0/Q_Bank_2 was not found in the design.
+WARNING: Simulation object /MicroProcesser_TB/MicroProcesser_0/RegisterBank_0/Q_Bank_3 was not found in the design.
+WARNING: Simulation object /MicroProcesser_TB/MicroProcesser_0/RegisterBank_0/Q_Bank_4 was not found in the design.
+WARNING: Simulation object /MicroProcesser_TB/MicroProcesser_0/RegisterBank_0/Q_Bank_5 was not found in the design.
+WARNING: Simulation object /MicroProcesser_TB/MicroProcesser_0/RegisterBank_0/Q_Bank_6 was not found in the design.
+WARNING: Simulation object /MicroProcesser_TB/MicroProcesser_0/RegisterBank_0/Q_Bank_7 was not found in the design.
+WARNING: Simulation object /MicroProcesser_TB/MicroProcesser_0/RegisterBank_0/Y was not found in the design.
+WARNING: Simulation object /MicroProcesser_TB/MicroProcesser_0/LUT_16_7_0/address was not found in the design.
+WARNING: Simulation object /MicroProcesser_TB/MicroProcesser_0/LUT_16_7_0/data was not found in the design.
+WARNING: Simulation object /MicroProcesser_TB/MicroProcesser_0/LUT_16_7_0/sevenSegment_ROM was not found in the design.
+WARNING: Simulation object /MicroProcesser_TB/Seg_7 was not found in the design.
+source ProgramCounter_TB.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'ProgramCounter_TB_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+set_property top MicroProcesser [current_fileset]
+update_compile_order -fileset sources_1
+set_property top MicroProcesser_TB [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/Micro processer/Micro processer.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'MicroProcesser_TB' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/Micro processer/Micro processer.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj MicroProcesser_TB_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/Micro processer/Micro processer.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 40e1a9a7d15d40fd86ecd75a1aa0009c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot MicroProcesser_TB_behav xil_defaultlib.MicroProcesser_TB -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/Micro processer/Micro processer.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "MicroProcesser_TB_behav -key {Behavioral:sim_1:Functional:MicroProcesser_TB} -tclbatch {MicroProcesser_TB.tcl} -view {{D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/Micro processer/MicroProcesser_TB_behav.wcfg}} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+open_wave_config {D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/Micro processer/MicroProcesser_TB_behav.wcfg}
+source MicroProcesser_TB.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'MicroProcesser_TB_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+set_property top Program_Rom [current_fileset]
+update_compile_order -fileset sources_1
+set_property top Program_Rom_TB [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/Micro processer/Micro processer.runs/synth_1
+
+launch_runs synth_1 -jobs 4
+[Sat Jun 10 21:49:53 2023] Launched synth_1...
+Run output will be captured here: D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/Micro processer/Micro processer.runs/synth_1/runme.log
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/Micro processer/Micro processer.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Program_Rom_TB' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/Micro processer/Micro processer.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj Program_Rom_TB_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/Micro processer/Micro processer.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 40e1a9a7d15d40fd86ecd75a1aa0009c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Program_Rom_TB_behav xil_defaultlib.Program_Rom_TB -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.Program_Rom [program_rom_default]
+Compiling architecture behavioral of entity xil_defaultlib.program_rom_tb
+Built simulation snapshot Program_Rom_TB_behav
+
+****** Webtalk v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source D:/Semester -notrace
+couldn't read file "D:/Semester": no such file or directory
+INFO: [Common 17-206] Exiting Webtalk at Sat Jun 10 21:50:32 2023...
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/Micro processer/Micro processer.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Program_Rom_TB_behav -key {Behavioral:sim_1:Functional:Program_Rom_TB} -tclbatch {Program_Rom_TB.tcl} -view {{D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/Micro processer/MicroProcesser_TB_behav.wcfg}} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+open_wave_config {D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/Micro processer/MicroProcesser_TB_behav.wcfg}
+WARNING: Simulation object /MicroProcesser_TB/Clock was not found in the design.
+WARNING: Simulation object /MicroProcesser_TB/ResPC was not found in the design.
+WARNING: Simulation object /MicroProcesser_TB/OVERFLOW was not found in the design.
+WARNING: Simulation object /MicroProcesser_TB/ZERO was not found in the design.
+WARNING: Simulation object /MicroProcesser_TB/LED was not found in the design.
+WARNING: Simulation object /MicroProcesser_TB/MicroProcesser_0/RegisterBank_0/Clock was not found in the design.
+WARNING: Simulation object /MicroProcesser_TB/MicroProcesser_0/RegisterBank_0/RegEn was not found in the design.
+WARNING: Simulation object /MicroProcesser_TB/MicroProcesser_0/RegisterBank_0/D_Bank was not found in the design.
+WARNING: Simulation object /MicroProcesser_TB/MicroProcesser_0/RegisterBank_0/Q_Bank_0 was not found in the design.
+WARNING: Simulation object /MicroProcesser_TB/MicroProcesser_0/RegisterBank_0/Q_Bank_1 was not found in the design.
+WARNING: Simulation object /MicroProcesser_TB/MicroProcesser_0/RegisterBank_0/Q_Bank_2 was not found in the design.
+WARNING: Simulation object /MicroProcesser_TB/MicroProcesser_0/RegisterBank_0/Q_Bank_3 was not found in the design.
+WARNING: Simulation object /MicroProcesser_TB/MicroProcesser_0/RegisterBank_0/Q_Bank_4 was not found in the design.
+WARNING: Simulation object /MicroProcesser_TB/MicroProcesser_0/RegisterBank_0/Q_Bank_5 was not found in the design.
+WARNING: Simulation object /MicroProcesser_TB/MicroProcesser_0/RegisterBank_0/Q_Bank_6 was not found in the design.
+WARNING: Simulation object /MicroProcesser_TB/MicroProcesser_0/RegisterBank_0/Q_Bank_7 was not found in the design.
+WARNING: Simulation object /MicroProcesser_TB/MicroProcesser_0/RegisterBank_0/Y was not found in the design.
+WARNING: Simulation object /MicroProcesser_TB/MicroProcesser_0/LUT_16_7_0/address was not found in the design.
+WARNING: Simulation object /MicroProcesser_TB/MicroProcesser_0/LUT_16_7_0/data was not found in the design.
+WARNING: Simulation object /MicroProcesser_TB/MicroProcesser_0/LUT_16_7_0/sevenSegment_ROM was not found in the design.
+WARNING: Simulation object /MicroProcesser_TB/Seg_7 was not found in the design.
+source Program_Rom_TB.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Program_Rom_TB_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+export_ip_user_files -of_objects  [get_files {{D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/Micro processer/Micro processer.srcs/constrs_1/imports/Computer Organization And digital Design/Basys3Labs.xdc}}] -no_script -reset -force -quiet
+remove_files  -fileset constrs_1 {{D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/Micro processer/Micro processer.srcs/constrs_1/imports/Computer Organization And digital Design/Basys3Labs.xdc}}
+file delete -force {D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/Micro processer/Micro processer.srcs/constrs_1/imports/Computer Organization And digital Design/Basys3Labs.xdc}
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/Micro processer/Micro processer.runs/synth_1
+
+launch_runs synth_1 -jobs 4
+[Sat Jun 10 21:53:56 2023] Launched synth_1...
+Run output will be captured here: D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/Micro processer/Micro processer.runs/synth_1/runme.log
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/Micro processer/Micro processer.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Program_Rom_TB' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/Micro processer/Micro processer.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj Program_Rom_TB_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/Micro processer/Micro processer.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 40e1a9a7d15d40fd86ecd75a1aa0009c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Program_Rom_TB_behav xil_defaultlib.Program_Rom_TB -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/Micro processer/Micro processer.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Program_Rom_TB_behav -key {Behavioral:sim_1:Functional:Program_Rom_TB} -tclbatch {Program_Rom_TB.tcl} -view {{D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/Micro processer/MicroProcesser_TB_behav.wcfg}} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+open_wave_config {D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/Micro processer/MicroProcesser_TB_behav.wcfg}
+WARNING: Simulation object /MicroProcesser_TB/Clock was not found in the design.
+WARNING: Simulation object /MicroProcesser_TB/ResPC was not found in the design.
+WARNING: Simulation object /MicroProcesser_TB/OVERFLOW was not found in the design.
+WARNING: Simulation object /MicroProcesser_TB/ZERO was not found in the design.
+WARNING: Simulation object /MicroProcesser_TB/LED was not found in the design.
+WARNING: Simulation object /MicroProcesser_TB/MicroProcesser_0/RegisterBank_0/Clock was not found in the design.
+WARNING: Simulation object /MicroProcesser_TB/MicroProcesser_0/RegisterBank_0/RegEn was not found in the design.
+WARNING: Simulation object /MicroProcesser_TB/MicroProcesser_0/RegisterBank_0/D_Bank was not found in the design.
+WARNING: Simulation object /MicroProcesser_TB/MicroProcesser_0/RegisterBank_0/Q_Bank_0 was not found in the design.
+WARNING: Simulation object /MicroProcesser_TB/MicroProcesser_0/RegisterBank_0/Q_Bank_1 was not found in the design.
+WARNING: Simulation object /MicroProcesser_TB/MicroProcesser_0/RegisterBank_0/Q_Bank_2 was not found in the design.
+WARNING: Simulation object /MicroProcesser_TB/MicroProcesser_0/RegisterBank_0/Q_Bank_3 was not found in the design.
+WARNING: Simulation object /MicroProcesser_TB/MicroProcesser_0/RegisterBank_0/Q_Bank_4 was not found in the design.
+WARNING: Simulation object /MicroProcesser_TB/MicroProcesser_0/RegisterBank_0/Q_Bank_5 was not found in the design.
+WARNING: Simulation object /MicroProcesser_TB/MicroProcesser_0/RegisterBank_0/Q_Bank_6 was not found in the design.
+WARNING: Simulation object /MicroProcesser_TB/MicroProcesser_0/RegisterBank_0/Q_Bank_7 was not found in the design.
+WARNING: Simulation object /MicroProcesser_TB/MicroProcesser_0/RegisterBank_0/Y was not found in the design.
+WARNING: Simulation object /MicroProcesser_TB/MicroProcesser_0/LUT_16_7_0/address was not found in the design.
+WARNING: Simulation object /MicroProcesser_TB/MicroProcesser_0/LUT_16_7_0/data was not found in the design.
+WARNING: Simulation object /MicroProcesser_TB/MicroProcesser_0/LUT_16_7_0/sevenSegment_ROM was not found in the design.
+WARNING: Simulation object /MicroProcesser_TB/Seg_7 was not found in the design.
+source Program_Rom_TB.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Program_Rom_TB_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+current_wave_config {MicroProcesser_TB_behav.wcfg}
+MicroProcesser_TB_behav.wcfg
+add_wave {{/Program_Rom_TB/UUT}} 
+save_wave_config {D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/Micro processer/MicroProcesser_TB_behav.wcfg}
+set_property top MicroProcesser_TB [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+current_sim simulation_3
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/Micro processer/Micro processer.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'MicroProcesser_TB' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/Micro processer/Micro processer.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj MicroProcesser_TB_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/Micro processer/Micro processer.srcs/sources_1/imports/new/Program_Rom.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Program_Rom
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/Micro processer/Micro processer.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 40e1a9a7d15d40fd86ecd75a1aa0009c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot MicroProcesser_TB_behav xil_defaultlib.MicroProcesser_TB -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.Slow_Clk [slow_clk_default]
+Compiling architecture behavioral of entity xil_defaultlib.ProgramCounter [programcounter_default]
+Compiling architecture behavioral of entity xil_defaultlib.Program_Rom [program_rom_default]
+Compiling architecture behavioral of entity xil_defaultlib.InstDecoder [instdecoder_default]
+Compiling architecture behavioral of entity xil_defaultlib.MUX_2_4 [mux_2_4_default]
+Compiling architecture behavioral of entity xil_defaultlib.Decoder_3_to_8 [decoder_3_to_8_default]
+Compiling architecture behavioral of entity xil_defaultlib.Reg [reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.RegisterBank [registerbank_default]
+Compiling architecture behavioral of entity xil_defaultlib.MUX_8_4 [mux_8_4_default]
+Compiling architecture behavioral of entity xil_defaultlib.HA [ha_default]
+Compiling architecture behavioral of entity xil_defaultlib.FA [fa_default]
+Compiling architecture behavioral of entity xil_defaultlib.AdderSubs [addersubs_default]
+Compiling architecture behavioral of entity xil_defaultlib.RCA_3 [rca_3_default]
+Compiling architecture behavioral of entity xil_defaultlib.MUX_2_3 [mux_2_3_default]
+Compiling architecture behavioral of entity xil_defaultlib.LUT_16_7 [lut_16_7_default]
+Compiling architecture behavioral of entity xil_defaultlib.MicroProcesser [microprocesser_default]
+Compiling architecture behavioral of entity xil_defaultlib.microprocesser_tb
+Built simulation snapshot MicroProcesser_TB_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/Micro processer/Micro processer.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "MicroProcesser_TB_behav -key {Behavioral:sim_1:Functional:MicroProcesser_TB} -tclbatch {MicroProcesser_TB.tcl} -view {{D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/Micro processer/MicroProcesser_TB_behav.wcfg}} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+open_wave_config {D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/Micro processer/MicroProcesser_TB_behav.wcfg}
+WARNING: Simulation object /Program_Rom_TB/UUT/Mem_sel was not found in the design.
+WARNING: Simulation object /Program_Rom_TB/UUT/InstBus was not found in the design.
+WARNING: Simulation object /Program_Rom_TB/UUT/twelveSegment_ROM was not found in the design.
+source MicroProcesser_TB.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'MicroProcesser_TB_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 984.906 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+current_sim simulation_5
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Jun 10 22:07:04 2023...

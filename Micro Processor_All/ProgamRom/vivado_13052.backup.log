@@ -1,0 +1,626 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sat Jun  3 23:50:27 2023
+# Process ID: 13052
+# Current directory: D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/ProgamRom
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5356 D:\Semester 02\Computer Organization And digital Design\New Labs\Micro Processor\ProgamRom\ProgamRom.xpr
+# Log file: D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/ProgamRom/vivado.log
+# Journal file: D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/ProgamRom\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/ProgamRom/ProgamRom.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/ProgamRom'
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'.
+update_compile_order -fileset sources_1
+close_project
+open_project {D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/InstructionDecoder/InstructionDecoder.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/InstructionDecoder'
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'.
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Sun Jun  4 00:00:07 2023] Launched synth_1...
+Run output will be captured here: D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/InstructionDecoder/InstructionDecoder.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Sun Jun  4 00:00:27 2023] Launched impl_1...
+Run output will be captured here: D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/InstructionDecoder/InstructionDecoder.runs/impl_1/runme.log
+file mkdir D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/InstructionDecoder/InstructionDecoder.srcs/sim_1/new
+file mkdir D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/InstructionDecoder/InstructionDecoder.srcs/sim_1/new
+file mkdir D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/InstructionDecoder/InstructionDecoder.srcs/sim_1/new
+file mkdir D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/InstructionDecoder/InstructionDecoder.srcs/sim_1/new
+file mkdir D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/InstructionDecoder/InstructionDecoder.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+file mkdir D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/InstructionDecoder/InstructionDecoder.srcs/sim_1/new
+file mkdir {D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/InstructionDecoder/InstructionDecoder.srcs/sim_1/new}
+close [ open {D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/InstructionDecoder/InstructionDecoder.srcs/sim_1/new/InstDecoder_TB.vhd} w ]
+add_files -fileset sim_1 {{D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/InstructionDecoder/InstructionDecoder.srcs/sim_1/new/InstDecoder_TB.vhd}}
+update_compile_order -fileset sim_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/InstructionDecoder/InstructionDecoder.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'InstDecoder' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/InstructionDecoder/InstructionDecoder.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj InstDecoder_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/InstructionDecoder/InstructionDecoder.srcs/sources_1/new/InstDecoder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity InstDecoder
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/InstructionDecoder/InstructionDecoder.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 7fc59bed65cc431b943a3d3df0b8ef3d --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot InstDecoder_behav xil_defaultlib.InstDecoder -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling architecture behavioral of entity xil_defaultlib.instdecoder
+Built simulation snapshot InstDecoder_behav
+
+****** Webtalk v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source D:/Semester -notrace
+couldn't read file "D:/Semester": permission denied
+INFO: [Common 17-206] Exiting Webtalk at Sun Jun  4 00:50:42 2023...
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/InstructionDecoder/InstructionDecoder.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "InstDecoder_behav -key {Behavioral:sim_1:Functional:InstDecoder} -tclbatch {InstDecoder.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source InstDecoder.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'InstDecoder_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 1011.586 ; gain = 6.113
+update_compile_order -fileset sim_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/InstructionDecoder/InstructionDecoder.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'InstDecoder_TB' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/InstructionDecoder/InstructionDecoder.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj InstDecoder_TB_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/InstructionDecoder/InstructionDecoder.srcs/sim_1/new/InstDecoder_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity InstDecoder_TB
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/InstructionDecoder/InstructionDecoder.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 7fc59bed65cc431b943a3d3df0b8ef3d --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot InstDecoder_TB_behav xil_defaultlib.InstDecoder_TB -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling architecture behavioral of entity xil_defaultlib.InstDecoder [instdecoder_default]
+Compiling architecture behavioral of entity xil_defaultlib.instdecoder_tb
+Built simulation snapshot InstDecoder_TB_behav
+
+****** Webtalk v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source D:/Semester -notrace
+couldn't read file "D:/Semester": permission denied
+INFO: [Common 17-206] Exiting Webtalk at Sun Jun  4 00:51:56 2023...
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/InstructionDecoder/InstructionDecoder.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "InstDecoder_TB_behav -key {Behavioral:sim_1:Functional:InstDecoder_TB} -tclbatch {InstDecoder_TB.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source InstDecoder_TB.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'InstDecoder_TB_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_project
+open_project {D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/2 way 4 bit MUX/2 way 4 bit MUX.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/2 way 4 bit MUX'
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'.
+update_compile_order -fileset sources_1
+file mkdir D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/2 way 4 bit MUX/2 way 4 bit MUX.srcs/sim_1/new
+file mkdir D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/2 way 4 bit MUX/2 way 4 bit MUX.srcs/sim_1/new
+file mkdir D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/2 way 4 bit MUX/2 way 4 bit MUX.srcs/sim_1/new
+file mkdir D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/2 way 4 bit MUX/2 way 4 bit MUX.srcs/sim_1/new
+file mkdir D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/2 way 4 bit MUX/2 way 4 bit MUX.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+file mkdir D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/2 way 4 bit MUX/2 way 4 bit MUX.srcs/sim_1/new
+file mkdir {D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/2 way 4 bit MUX/2 way 4 bit MUX.srcs/sim_1/new}
+close [ open {D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/2 way 4 bit MUX/2 way 4 bit MUX.srcs/sim_1/new/MUX_2_4_TB.vhd} w ]
+add_files -fileset sim_1 {{D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/2 way 4 bit MUX/2 way 4 bit MUX.srcs/sim_1/new/MUX_2_4_TB.vhd}}
+update_compile_order -fileset sim_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/2 way 4 bit MUX/2 way 4 bit MUX.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'MUX_2_4' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/2 way 4 bit MUX/2 way 4 bit MUX.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj MUX_2_4_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/2 way 4 bit MUX/2 way 4 bit MUX.srcs/sources_1/new/MUX_2_4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MUX_2_4
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/2 way 4 bit MUX/2 way 4 bit MUX.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto c2792371449f4b54a84656c67c8fbabd --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot MUX_2_4_behav xil_defaultlib.MUX_2_4 -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling architecture behavioral of entity xil_defaultlib.mux_2_4
+Built simulation snapshot MUX_2_4_behav
+
+****** Webtalk v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source D:/Semester -notrace
+couldn't read file "D:/Semester": permission denied
+INFO: [Common 17-206] Exiting Webtalk at Sun Jun  4 01:07:54 2023...
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/2 way 4 bit MUX/2 way 4 bit MUX.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "MUX_2_4_behav -key {Behavioral:sim_1:Functional:MUX_2_4} -tclbatch {MUX_2_4.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source MUX_2_4.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'MUX_2_4_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1025.141 ; gain = 0.801
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/2 way 4 bit MUX/2 way 4 bit MUX.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'MUX_2_4_TB' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/2 way 4 bit MUX/2 way 4 bit MUX.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj MUX_2_4_TB_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/2 way 4 bit MUX/2 way 4 bit MUX.srcs/sim_1/new/MUX_2_4_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MUX_2_4_TB
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/2 way 4 bit MUX/2 way 4 bit MUX.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto c2792371449f4b54a84656c67c8fbabd --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot MUX_2_4_TB_behav xil_defaultlib.MUX_2_4_TB -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling architecture behavioral of entity xil_defaultlib.MUX_2_4 [mux_2_4_default]
+Compiling architecture behavioral of entity xil_defaultlib.mux_2_4_tb
+Built simulation snapshot MUX_2_4_TB_behav
+
+****** Webtalk v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source D:/Semester -notrace
+couldn't read file "D:/Semester": permission denied
+INFO: [Common 17-206] Exiting Webtalk at Sun Jun  4 01:08:01 2023...
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/2 way 4 bit MUX/2 way 4 bit MUX.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "MUX_2_4_TB_behav -key {Behavioral:sim_1:Functional:MUX_2_4_TB} -tclbatch {MUX_2_4_TB.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source MUX_2_4_TB.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'MUX_2_4_TB_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+update_compile_order -fileset sim_1
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/2 way 4 bit MUX/2 way 4 bit MUX.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'MUX_2_4_TB' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/2 way 4 bit MUX/2 way 4 bit MUX.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj MUX_2_4_TB_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/2 way 4 bit MUX/2 way 4 bit MUX.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto c2792371449f4b54a84656c67c8fbabd --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot MUX_2_4_TB_behav xil_defaultlib.MUX_2_4_TB -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/2 way 4 bit MUX/2 way 4 bit MUX.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "MUX_2_4_TB_behav -key {Behavioral:sim_1:Functional:MUX_2_4_TB} -tclbatch {MUX_2_4_TB.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source MUX_2_4_TB.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'MUX_2_4_TB_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_project
+open_project {D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/8 way 4 bit MUX/8 way 4 bit MUX.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/8 way 4 bit MUX'
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'.
+update_compile_order -fileset sources_1
+file mkdir D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/8 way 4 bit MUX/8 way 4 bit MUX.srcs/sim_1/new
+file mkdir D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/8 way 4 bit MUX/8 way 4 bit MUX.srcs/sim_1/new
+file mkdir D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/8 way 4 bit MUX/8 way 4 bit MUX.srcs/sim_1/new
+file mkdir D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/8 way 4 bit MUX/8 way 4 bit MUX.srcs/sim_1/new
+file mkdir D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/8 way 4 bit MUX/8 way 4 bit MUX.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+file mkdir D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/8 way 4 bit MUX/8 way 4 bit MUX.srcs/sim_1/new
+file mkdir {D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/8 way 4 bit MUX/8 way 4 bit MUX.srcs/sim_1/new}
+close [ open {D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/8 way 4 bit MUX/8 way 4 bit MUX.srcs/sim_1/new/MUX_8_4_TB.vhd} w ]
+add_files -fileset sim_1 {{D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/8 way 4 bit MUX/8 way 4 bit MUX.srcs/sim_1/new/MUX_8_4_TB.vhd}}
+update_compile_order -fileset sim_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/8 way 4 bit MUX/8 way 4 bit MUX.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'MUX_8_4' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/8 way 4 bit MUX/8 way 4 bit MUX.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj MUX_8_4_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/8 way 4 bit MUX/8 way 4 bit MUX.srcs/sources_1/new/MUX_8_4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MUX_8_4
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/8 way 4 bit MUX/8 way 4 bit MUX.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 63570069e2b94704b6bde89b7c1718fe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot MUX_8_4_behav xil_defaultlib.MUX_8_4 -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling architecture behavioral of entity xil_defaultlib.mux_8_4
+Built simulation snapshot MUX_8_4_behav
+
+****** Webtalk v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source D:/Semester -notrace
+couldn't read file "D:/Semester": permission denied
+INFO: [Common 17-206] Exiting Webtalk at Sun Jun  4 01:24:33 2023...
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/8 way 4 bit MUX/8 way 4 bit MUX.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "MUX_8_4_behav -key {Behavioral:sim_1:Functional:MUX_8_4} -tclbatch {MUX_8_4.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source MUX_8_4.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'MUX_8_4_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/8 way 4 bit MUX/8 way 4 bit MUX.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'MUX_8_4_TB' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/8 way 4 bit MUX/8 way 4 bit MUX.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj MUX_8_4_TB_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/8 way 4 bit MUX/8 way 4 bit MUX.srcs/sim_1/new/MUX_8_4_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MUX_8_4_TB
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/8 way 4 bit MUX/8 way 4 bit MUX.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 63570069e2b94704b6bde89b7c1718fe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot MUX_8_4_TB_behav xil_defaultlib.MUX_8_4_TB -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling architecture behavioral of entity xil_defaultlib.MUX_8_4 [mux_8_4_default]
+Compiling architecture behavioral of entity xil_defaultlib.mux_8_4_tb
+Built simulation snapshot MUX_8_4_TB_behav
+
+****** Webtalk v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source D:/Semester -notrace
+couldn't read file "D:/Semester": permission denied
+INFO: [Common 17-206] Exiting Webtalk at Sun Jun  4 01:24:41 2023...
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/8 way 4 bit MUX/8 way 4 bit MUX.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "MUX_8_4_TB_behav -key {Behavioral:sim_1:Functional:MUX_8_4_TB} -tclbatch {MUX_8_4_TB.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source MUX_8_4_TB.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'MUX_8_4_TB_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+update_compile_order -fileset sim_1
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/8 way 4 bit MUX/8 way 4 bit MUX.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'MUX_8_4_TB' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/8 way 4 bit MUX/8 way 4 bit MUX.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj MUX_8_4_TB_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/8 way 4 bit MUX/8 way 4 bit MUX.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 63570069e2b94704b6bde89b7c1718fe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot MUX_8_4_TB_behav xil_defaultlib.MUX_8_4_TB -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/8 way 4 bit MUX/8 way 4 bit MUX.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "MUX_8_4_TB_behav -key {Behavioral:sim_1:Functional:MUX_8_4_TB} -tclbatch {MUX_8_4_TB.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source MUX_8_4_TB.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'MUX_8_4_TB_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/8 way 4 bit MUX/8 way 4 bit MUX.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'MUX_8_4_TB' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/8 way 4 bit MUX/8 way 4 bit MUX.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj MUX_8_4_TB_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/8 way 4 bit MUX/8 way 4 bit MUX.srcs/sim_1/new/MUX_8_4_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MUX_8_4_TB
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/8 way 4 bit MUX/8 way 4 bit MUX.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 63570069e2b94704b6bde89b7c1718fe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot MUX_8_4_TB_behav xil_defaultlib.MUX_8_4_TB -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling architecture behavioral of entity xil_defaultlib.MUX_8_4 [mux_8_4_default]
+Compiling architecture behavioral of entity xil_defaultlib.mux_8_4_tb
+Built simulation snapshot MUX_8_4_TB_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/8 way 4 bit MUX/8 way 4 bit MUX.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "MUX_8_4_TB_behav -key {Behavioral:sim_1:Functional:MUX_8_4_TB} -tclbatch {MUX_8_4_TB.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source MUX_8_4_TB.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'MUX_8_4_TB_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_project
+open_project {D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/2 way 3 bit MUX/2 way 3 bit MUX.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/2 way 3 bit MUX'
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'.
+update_compile_order -fileset sources_1
+file mkdir D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/2 way 3 bit MUX/2 way 3 bit MUX.srcs/sim_1/new
+file mkdir D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/2 way 3 bit MUX/2 way 3 bit MUX.srcs/sim_1/new
+file mkdir D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/2 way 3 bit MUX/2 way 3 bit MUX.srcs/sim_1/new
+file mkdir D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/2 way 3 bit MUX/2 way 3 bit MUX.srcs/sim_1/new
+file mkdir D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/2 way 3 bit MUX/2 way 3 bit MUX.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+file mkdir D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/2 way 3 bit MUX/2 way 3 bit MUX.srcs/sim_1/new
+file mkdir {D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/2 way 3 bit MUX/2 way 3 bit MUX.srcs/sim_1/new}
+close [ open {D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/2 way 3 bit MUX/2 way 3 bit MUX.srcs/sim_1/new/MUX_2_3.vhd} w ]
+add_files -fileset sim_1 {{D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/2 way 3 bit MUX/2 way 3 bit MUX.srcs/sim_1/new/MUX_2_3.vhd}}
+update_compile_order -fileset sim_1
+export_ip_user_files -of_objects  [get_files {{D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/2 way 3 bit MUX/2 way 3 bit MUX.srcs/sources_1/new/MUX_2_3.vhd}}] -no_script -reset -force -quiet
+remove_files  {{D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/2 way 3 bit MUX/2 way 3 bit MUX.srcs/sources_1/new/MUX_2_3.vhd}}
+file delete -force {D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/2 way 3 bit MUX/2 way 3 bit MUX.srcs/sources_1/new/MUX_2_3.vhd}
+update_compile_order -fileset sim_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open {D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/2 way 3 bit MUX/2 way 3 bit MUX.srcs/sim_1/new/MUX_2_3_TB.vhd} w ]
+add_files -fileset sim_1 {{D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/2 way 3 bit MUX/2 way 3 bit MUX.srcs/sim_1/new/MUX_2_3_TB.vhd}}
+update_compile_order -fileset sim_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Jun  4 01:34:57 2023...

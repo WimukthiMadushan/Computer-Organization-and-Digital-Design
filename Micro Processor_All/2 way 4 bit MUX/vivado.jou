@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sat Jun 10 22:36:11 2023
+# Process ID: 888
+# Current directory: D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/2 way 4 bit MUX
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5436 D:\Semester 02\Computer Organization And digital Design\New Labs\Micro Processor\2 way 4 bit MUX\2 way 4 bit MUX.xpr
+# Log file: D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/2 way 4 bit MUX/vivado.log
+# Journal file: D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/2 way 4 bit MUX\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/2 way 4 bit MUX/2 way 4 bit MUX.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+source MUX_2_4_TB.tcl
+close_sim

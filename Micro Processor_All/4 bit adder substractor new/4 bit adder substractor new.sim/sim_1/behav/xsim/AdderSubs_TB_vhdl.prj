@@ -1,0 +1,9 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../4 bit adder substractor new.srcs/sources_1/new/AdderSubs.vhd" \
+"../../../../4 bit adder substractor new.srcs/sources_1/imports/new/FA.vhd" \
+"../../../../4 bit adder substractor new.srcs/sources_1/imports/new/HA.vhd" \
+"../../../../4 bit adder substractor new.srcs/sim_1/new/AdderSubs_TB.vhd" \
+
+# Do not sort compile order
+nosort

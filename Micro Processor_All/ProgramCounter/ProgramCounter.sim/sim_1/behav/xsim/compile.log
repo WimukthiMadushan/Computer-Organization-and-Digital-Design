@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/ProgramCounter/ProgramCounter.srcs/sources_1/new/ProgramCounter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ProgramCounter
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/ProgramCounter/ProgramCounter.srcs/sim_1/new/Program_Counter_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Program_Counter_TB

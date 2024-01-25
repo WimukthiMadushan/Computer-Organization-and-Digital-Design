@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Micro processer.srcs/sources_1/imports/new/MUX_2_3.vhd" \
+"../../../../Micro processer.srcs/sim_1/new/MUX_2_3_TB.vhd" \
+
+# Do not sort compile order
+nosort

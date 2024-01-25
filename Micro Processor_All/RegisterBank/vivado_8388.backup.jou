@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sat Jun 10 22:07:34 2023
+# Process ID: 8388
+# Current directory: D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/RegisterBank
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14856 D:\Semester 02\Computer Organization And digital Design\New Labs\Micro Processor\RegisterBank\RegisterBank.xpr
+# Log file: D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/RegisterBank/vivado.log
+# Journal file: D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/RegisterBank\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/RegisterBank/RegisterBank.xpr}
+launch_simulation
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_simulation

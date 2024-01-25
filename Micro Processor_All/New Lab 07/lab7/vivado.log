@@ -1,0 +1,806 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sun Jun  4 09:57:09 2023
+# Process ID: 3024
+# Current directory: D:/Semester 02/Computer Organization And digital Design/New Labs/New Lab 07/lab7
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7100 D:\Semester 02\Computer Organization And digital Design\New Labs\New Lab 07\lab7\lab7.xpr
+# Log file: D:/Semester 02/Computer Organization And digital Design/New Labs/New Lab 07/lab7/vivado.log
+# Journal file: D:/Semester 02/Computer Organization And digital Design/New Labs/New Lab 07/lab7\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/Semester 02/Computer Organization And digital Design/New Labs/New Lab 07/lab7/lab7.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 939.578 ; gain = 197.227
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Semester 02/Computer Organization And digital Design/New Labs/New Lab 07/lab7/lab7.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'AU_7Seg_Sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Semester 02/Computer Organization And digital Design/New Labs/New Lab 07/lab7/lab7.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj AU_7Seg_Sim_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Semester 02/Computer Organization And digital Design/New Labs/New Lab 07/lab7/lab7.srcs/sources_1/imports/new/AU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity AU
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Semester 02/Computer Organization And digital Design/New Labs/New Lab 07/lab7/lab7.srcs/sources_1/new/AU_7_Seg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity AU_7_Seg
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Semester 02/Computer Organization And digital Design/New Labs/New Lab 07/lab7/lab7.srcs/sources_1/imports/new/FA.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FA
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Semester 02/Computer Organization And digital Design/New Labs/New Lab 07/lab7/lab7.srcs/sources_1/imports/new/HA.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity HA
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Semester 02/Computer Organization And digital Design/New Labs/New Lab 07/lab7/lab7.srcs/sources_1/imports/new/RCA_4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RCA_4
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Semester 02/Computer Organization And digital Design/New Labs/New Lab 07/lab7/lab7.srcs/sources_1/imports/new/Reg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Reg
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Semester 02/Computer Organization And digital Design/New Labs/New Lab 07/lab7/lab7.srcs/sources_1/imports/new/Slow_Clk.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Slow_Clk
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Semester 02/Computer Organization And digital Design/New Labs/New Lab 07/lab7/lab7.srcs/sim_1/new/AU_7Seg_Sim.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity AU_7Seg_Sim
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Semester 02/Computer Organization And digital Design/New Labs/New Lab 07/lab7/lab7.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 9d48981119c14555908026f238180c1d --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot AU_7Seg_Sim_behav xil_defaultlib.AU_7Seg_Sim -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.Slow_Clk [slow_clk_default]
+Compiling architecture behavioral of entity xil_defaultlib.Reg [reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.HA [ha_default]
+Compiling architecture behavioral of entity xil_defaultlib.FA [fa_default]
+Compiling architecture behavioral of entity xil_defaultlib.RCA_4 [rca_4_default]
+Compiling architecture behavioral of entity xil_defaultlib.AU [au_default]
+Compiling architecture behavioral of entity xil_defaultlib.LUT_16_7 [lut_16_7_default]
+Compiling architecture behavioral of entity xil_defaultlib.AU_7_Seg [au_7_seg_default]
+Compiling architecture behavioral of entity xil_defaultlib.au_7seg_sim
+Built simulation snapshot AU_7Seg_Sim_behav
+
+****** Webtalk v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source D:/Semester -notrace
+couldn't read file "D:/Semester": permission denied
+INFO: [Common 17-206] Exiting Webtalk at Sun Jun  4 09:58:24 2023...
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Semester 02/Computer Organization And digital Design/New Labs/New Lab 07/lab7/lab7.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "AU_7Seg_Sim_behav -key {Behavioral:sim_1:Functional:AU_7Seg_Sim} -tclbatch {AU_7Seg_Sim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source AU_7Seg_Sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'AU_7Seg_Sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 1000.672 ; gain = 39.098
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Semester 02/Computer Organization And digital Design/New Labs/New Lab 07/lab7/lab7.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'AU_7Seg_Sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Semester 02/Computer Organization And digital Design/New Labs/New Lab 07/lab7/lab7.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj AU_7Seg_Sim_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Semester 02/Computer Organization And digital Design/New Labs/New Lab 07/lab7/lab7.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 9d48981119c14555908026f238180c1d --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot AU_7Seg_Sim_behav xil_defaultlib.AU_7Seg_Sim -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Semester 02/Computer Organization And digital Design/New Labs/New Lab 07/lab7/lab7.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "AU_7Seg_Sim_behav -key {Behavioral:sim_1:Functional:AU_7Seg_Sim} -tclbatch {AU_7Seg_Sim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source AU_7Seg_Sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'AU_7Seg_Sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+set_property top AU_7_Seg [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Semester 02/Computer Organization And digital Design/New Labs/New Lab 07/lab7/lab7.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'AU_7_Seg' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Semester 02/Computer Organization And digital Design/New Labs/New Lab 07/lab7/lab7.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj AU_7_Seg_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Semester 02/Computer Organization And digital Design/New Labs/New Lab 07/lab7/lab7.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 9d48981119c14555908026f238180c1d --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot AU_7_Seg_behav xil_defaultlib.AU_7_Seg -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.Slow_Clk [slow_clk_default]
+Compiling architecture behavioral of entity xil_defaultlib.Reg [reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.HA [ha_default]
+Compiling architecture behavioral of entity xil_defaultlib.FA [fa_default]
+Compiling architecture behavioral of entity xil_defaultlib.RCA_4 [rca_4_default]
+Compiling architecture behavioral of entity xil_defaultlib.AU [au_default]
+Compiling architecture behavioral of entity xil_defaultlib.LUT_16_7 [lut_16_7_default]
+Compiling architecture behavioral of entity xil_defaultlib.au_7_seg
+Built simulation snapshot AU_7_Seg_behav
+
+****** Webtalk v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source D:/Semester -notrace
+couldn't read file "D:/Semester": permission denied
+INFO: [Common 17-206] Exiting Webtalk at Sun Jun  4 10:00:06 2023...
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Semester 02/Computer Organization And digital Design/New Labs/New Lab 07/lab7/lab7.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "AU_7_Seg_behav -key {Behavioral:sim_1:Functional:AU_7_Seg} -tclbatch {AU_7_Seg.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source AU_7_Seg.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'AU_7_Seg_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Semester 02/Computer Organization And digital Design/New Labs/New Lab 07/lab7/lab7.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'AU_7_Seg' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Semester 02/Computer Organization And digital Design/New Labs/New Lab 07/lab7/lab7.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj AU_7_Seg_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Semester 02/Computer Organization And digital Design/New Labs/New Lab 07/lab7/lab7.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 9d48981119c14555908026f238180c1d --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot AU_7_Seg_behav xil_defaultlib.AU_7_Seg -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Semester 02/Computer Organization And digital Design/New Labs/New Lab 07/lab7/lab7.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "AU_7_Seg_behav -key {Behavioral:sim_1:Functional:AU_7_Seg} -tclbatch {AU_7_Seg.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source AU_7_Seg.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'AU_7_Seg_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+export_ip_user_files -of_objects  [get_files {{D:/Semester 02/Computer Organization And digital Design/New Labs/New Lab 07/lab7/lab7.srcs/sim_1/new/AU_7Seg_Sim.vhd}}] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 {{D:/Semester 02/Computer Organization And digital Design/New Labs/New Lab 07/lab7/lab7.srcs/sim_1/new/AU_7Seg_Sim.vhd}}
+file delete -force {D:/Semester 02/Computer Organization And digital Design/New Labs/New Lab 07/lab7/lab7.srcs/sim_1/new/AU_7Seg_Sim.vhd}
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open {D:/Semester 02/Computer Organization And digital Design/New Labs/New Lab 07/lab7/lab7.srcs/sim_1/new/AU_7_Seg_TB.vhd} w ]
+add_files -fileset sim_1 {{D:/Semester 02/Computer Organization And digital Design/New Labs/New Lab 07/lab7/lab7.srcs/sim_1/new/AU_7_Seg_TB.vhd}}
+update_compile_order -fileset sim_1
+set_property top AU_7_Seg_TB [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Semester 02/Computer Organization And digital Design/New Labs/New Lab 07/lab7/lab7.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'AU_7_Seg_TB' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Semester 02/Computer Organization And digital Design/New Labs/New Lab 07/lab7/lab7.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj AU_7_Seg_TB_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Semester 02/Computer Organization And digital Design/New Labs/New Lab 07/lab7/lab7.srcs/sim_1/new/AU_7_Seg_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity AU_7_Seg_TB
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Semester 02/Computer Organization And digital Design/New Labs/New Lab 07/lab7/lab7.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 9d48981119c14555908026f238180c1d --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot AU_7_Seg_TB_behav xil_defaultlib.AU_7_Seg_TB -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.Slow_Clk [slow_clk_default]
+Compiling architecture behavioral of entity xil_defaultlib.Reg [reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.HA [ha_default]
+Compiling architecture behavioral of entity xil_defaultlib.FA [fa_default]
+Compiling architecture behavioral of entity xil_defaultlib.RCA_4 [rca_4_default]
+Compiling architecture behavioral of entity xil_defaultlib.AU [au_default]
+Compiling architecture behavioral of entity xil_defaultlib.LUT_16_7 [lut_16_7_default]
+Compiling architecture behavioral of entity xil_defaultlib.AU_7_Seg [au_7_seg_default]
+Compiling architecture behavioral of entity xil_defaultlib.au_7_seg_tb
+Built simulation snapshot AU_7_Seg_TB_behav
+
+****** Webtalk v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source D:/Semester -notrace
+couldn't read file "D:/Semester": permission denied
+INFO: [Common 17-206] Exiting Webtalk at Sun Jun  4 10:08:25 2023...
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Semester 02/Computer Organization And digital Design/New Labs/New Lab 07/lab7/lab7.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "AU_7_Seg_TB_behav -key {Behavioral:sim_1:Functional:AU_7_Seg_TB} -tclbatch {AU_7_Seg_TB.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source AU_7_Seg_TB.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'AU_7_Seg_TB_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Semester 02/Computer Organization And digital Design/New Labs/New Lab 07/lab7/lab7.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'AU_7_Seg_TB' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Semester 02/Computer Organization And digital Design/New Labs/New Lab 07/lab7/lab7.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj AU_7_Seg_TB_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Semester 02/Computer Organization And digital Design/New Labs/New Lab 07/lab7/lab7.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 9d48981119c14555908026f238180c1d --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot AU_7_Seg_TB_behav xil_defaultlib.AU_7_Seg_TB -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Semester 02/Computer Organization And digital Design/New Labs/New Lab 07/lab7/lab7.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "AU_7_Seg_TB_behav -key {Behavioral:sim_1:Functional:AU_7_Seg_TB} -tclbatch {AU_7_Seg_TB.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source AU_7_Seg_TB.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'AU_7_Seg_TB_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Semester 02/Computer Organization And digital Design/New Labs/New Lab 07/lab7/lab7.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'AU_7_Seg_TB' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Semester 02/Computer Organization And digital Design/New Labs/New Lab 07/lab7/lab7.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj AU_7_Seg_TB_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Semester 02/Computer Organization And digital Design/New Labs/New Lab 07/lab7/lab7.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 9d48981119c14555908026f238180c1d --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot AU_7_Seg_TB_behav xil_defaultlib.AU_7_Seg_TB -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Semester 02/Computer Organization And digital Design/New Labs/New Lab 07/lab7/lab7.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "AU_7_Seg_TB_behav -key {Behavioral:sim_1:Functional:AU_7_Seg_TB} -tclbatch {AU_7_Seg_TB.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source AU_7_Seg_TB.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'AU_7_Seg_TB_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Semester 02/Computer Organization And digital Design/New Labs/New Lab 07/lab7/lab7.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'AU_7_Seg_TB' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Semester 02/Computer Organization And digital Design/New Labs/New Lab 07/lab7/lab7.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj AU_7_Seg_TB_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Semester 02/Computer Organization And digital Design/New Labs/New Lab 07/lab7/lab7.srcs/sources_1/new/AU_7_Seg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity AU_7_Seg
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Semester 02/Computer Organization And digital Design/New Labs/New Lab 07/lab7/lab7.srcs/sim_1/new/AU_7_Seg_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity AU_7_Seg_TB
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Semester 02/Computer Organization And digital Design/New Labs/New Lab 07/lab7/lab7.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 9d48981119c14555908026f238180c1d --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot AU_7_Seg_TB_behav xil_defaultlib.AU_7_Seg_TB -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-665] expression has 4 elements ; formal s_7seg expects 7 [D:/Semester 02/Computer Organization And digital Design/New Labs/New Lab 07/lab7/lab7.srcs/sim_1/new/AU_7_Seg_TB.vhd:63]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit au_7_seg_tb in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'D:/Semester 02/Computer Organization And digital Design/New Labs/New Lab 07/lab7/lab7.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'D:/Semester 02/Computer Organization And digital Design/New Labs/New Lab 07/lab7/lab7.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+current_sim simulation_4
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Semester 02/Computer Organization And digital Design/New Labs/New Lab 07/lab7/lab7.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'AU_7_Seg_TB' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Semester 02/Computer Organization And digital Design/New Labs/New Lab 07/lab7/lab7.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj AU_7_Seg_TB_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Semester 02/Computer Organization And digital Design/New Labs/New Lab 07/lab7/lab7.srcs/sources_1/new/AU_7_Seg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity AU_7_Seg
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Semester 02/Computer Organization And digital Design/New Labs/New Lab 07/lab7/lab7.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 9d48981119c14555908026f238180c1d --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot AU_7_Seg_TB_behav xil_defaultlib.AU_7_Seg_TB -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-665] expression has 4 elements ; formal s_7seg expects 7 [D:/Semester 02/Computer Organization And digital Design/New Labs/New Lab 07/lab7/lab7.srcs/sim_1/new/AU_7_Seg_TB.vhd:63]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit au_7_seg_tb in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'D:/Semester 02/Computer Organization And digital Design/New Labs/New Lab 07/lab7/lab7.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'D:/Semester 02/Computer Organization And digital Design/New Labs/New Lab 07/lab7/lab7.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Semester 02/Computer Organization And digital Design/New Labs/New Lab 07/lab7/lab7.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'AU_7_Seg_TB' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Semester 02/Computer Organization And digital Design/New Labs/New Lab 07/lab7/lab7.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj AU_7_Seg_TB_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Semester 02/Computer Organization And digital Design/New Labs/New Lab 07/lab7/lab7.srcs/sim_1/new/AU_7_Seg_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity AU_7_Seg_TB
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Semester 02/Computer Organization And digital Design/New Labs/New Lab 07/lab7/lab7.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 9d48981119c14555908026f238180c1d --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot AU_7_Seg_TB_behav xil_defaultlib.AU_7_Seg_TB -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-665] expression has 4 elements ; formal s_7seg expects 7 [D:/Semester 02/Computer Organization And digital Design/New Labs/New Lab 07/lab7/lab7.srcs/sim_1/new/AU_7_Seg_TB.vhd:63]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit au_7_seg_tb in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'D:/Semester 02/Computer Organization And digital Design/New Labs/New Lab 07/lab7/lab7.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'D:/Semester 02/Computer Organization And digital Design/New Labs/New Lab 07/lab7/lab7.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Semester 02/Computer Organization And digital Design/New Labs/New Lab 07/lab7/lab7.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'AU_7_Seg_TB' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Semester 02/Computer Organization And digital Design/New Labs/New Lab 07/lab7/lab7.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj AU_7_Seg_TB_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Semester 02/Computer Organization And digital Design/New Labs/New Lab 07/lab7/lab7.srcs/sim_1/new/AU_7_Seg_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity AU_7_Seg_TB
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Semester 02/Computer Organization And digital Design/New Labs/New Lab 07/lab7/lab7.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 9d48981119c14555908026f238180c1d --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot AU_7_Seg_TB_behav xil_defaultlib.AU_7_Seg_TB -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.Slow_Clk [slow_clk_default]
+Compiling architecture behavioral of entity xil_defaultlib.Reg [reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.HA [ha_default]
+Compiling architecture behavioral of entity xil_defaultlib.FA [fa_default]
+Compiling architecture behavioral of entity xil_defaultlib.RCA_4 [rca_4_default]
+Compiling architecture behavioral of entity xil_defaultlib.AU [au_default]
+Compiling architecture behavioral of entity xil_defaultlib.LUT_16_7 [lut_16_7_default]
+Compiling architecture behavioral of entity xil_defaultlib.AU_7_Seg [au_7_seg_default]
+Compiling architecture behavioral of entity xil_defaultlib.au_7_seg_tb
+Built simulation snapshot AU_7_Seg_TB_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Semester 02/Computer Organization And digital Design/New Labs/New Lab 07/lab7/lab7.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "AU_7_Seg_TB_behav -key {Behavioral:sim_1:Functional:AU_7_Seg_TB} -tclbatch {AU_7_Seg_TB.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source AU_7_Seg_TB.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'AU_7_Seg_TB_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 1045.602 ; gain = 6.680
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+current_sim simulation_4
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Semester 02/Computer Organization And digital Design/New Labs/New Lab 07/lab7/lab7.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'AU_7_Seg_TB' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Semester 02/Computer Organization And digital Design/New Labs/New Lab 07/lab7/lab7.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj AU_7_Seg_TB_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Semester 02/Computer Organization And digital Design/New Labs/New Lab 07/lab7/lab7.srcs/sim_1/new/AU_7_Seg_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity AU_7_Seg_TB
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Semester 02/Computer Organization And digital Design/New Labs/New Lab 07/lab7/lab7.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 9d48981119c14555908026f238180c1d --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot AU_7_Seg_TB_behav xil_defaultlib.AU_7_Seg_TB -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.Slow_Clk [slow_clk_default]
+Compiling architecture behavioral of entity xil_defaultlib.Reg [reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.HA [ha_default]
+Compiling architecture behavioral of entity xil_defaultlib.FA [fa_default]
+Compiling architecture behavioral of entity xil_defaultlib.RCA_4 [rca_4_default]
+Compiling architecture behavioral of entity xil_defaultlib.AU [au_default]
+Compiling architecture behavioral of entity xil_defaultlib.LUT_16_7 [lut_16_7_default]
+Compiling architecture behavioral of entity xil_defaultlib.AU_7_Seg [au_7_seg_default]
+Compiling architecture behavioral of entity xil_defaultlib.au_7_seg_tb
+Built simulation snapshot AU_7_Seg_TB_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Semester 02/Computer Organization And digital Design/New Labs/New Lab 07/lab7/lab7.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "AU_7_Seg_TB_behav -key {Behavioral:sim_1:Functional:AU_7_Seg_TB} -tclbatch {AU_7_Seg_TB.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source AU_7_Seg_TB.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'AU_7_Seg_TB_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Semester 02/Computer Organization And digital Design/New Labs/New Lab 07/lab7/lab7.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'AU_7_Seg_TB' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Semester 02/Computer Organization And digital Design/New Labs/New Lab 07/lab7/lab7.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj AU_7_Seg_TB_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Semester 02/Computer Organization And digital Design/New Labs/New Lab 07/lab7/lab7.srcs/sources_1/new/AU_7_Seg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity AU_7_Seg
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Semester 02/Computer Organization And digital Design/New Labs/New Lab 07/lab7/lab7.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 9d48981119c14555908026f238180c1d --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot AU_7_Seg_TB_behav xil_defaultlib.AU_7_Seg_TB -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.Slow_Clk [slow_clk_default]
+Compiling architecture behavioral of entity xil_defaultlib.Reg [reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.HA [ha_default]
+Compiling architecture behavioral of entity xil_defaultlib.FA [fa_default]
+Compiling architecture behavioral of entity xil_defaultlib.RCA_4 [rca_4_default]
+Compiling architecture behavioral of entity xil_defaultlib.AU [au_default]
+Compiling architecture behavioral of entity xil_defaultlib.LUT_16_7 [lut_16_7_default]
+Compiling architecture behavioral of entity xil_defaultlib.AU_7_Seg [au_7_seg_default]
+Compiling architecture behavioral of entity xil_defaultlib.au_7_seg_tb
+Built simulation snapshot AU_7_Seg_TB_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Semester 02/Computer Organization And digital Design/New Labs/New Lab 07/lab7/lab7.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "AU_7_Seg_TB_behav -key {Behavioral:sim_1:Functional:AU_7_Seg_TB} -tclbatch {AU_7_Seg_TB.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source AU_7_Seg_TB.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'AU_7_Seg_TB_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1049.656 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Semester 02/Computer Organization And digital Design/New Labs/New Lab 07/lab7/lab7.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'AU_7_Seg_TB' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Semester 02/Computer Organization And digital Design/New Labs/New Lab 07/lab7/lab7.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj AU_7_Seg_TB_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Semester 02/Computer Organization And digital Design/New Labs/New Lab 07/lab7/lab7.srcs/sim_1/new/AU_7_Seg_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity AU_7_Seg_TB
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Semester 02/Computer Organization And digital Design/New Labs/New Lab 07/lab7/lab7.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 9d48981119c14555908026f238180c1d --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot AU_7_Seg_TB_behav xil_defaultlib.AU_7_Seg_TB -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.Slow_Clk [slow_clk_default]
+Compiling architecture behavioral of entity xil_defaultlib.Reg [reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.HA [ha_default]
+Compiling architecture behavioral of entity xil_defaultlib.FA [fa_default]
+Compiling architecture behavioral of entity xil_defaultlib.RCA_4 [rca_4_default]
+Compiling architecture behavioral of entity xil_defaultlib.AU [au_default]
+Compiling architecture behavioral of entity xil_defaultlib.LUT_16_7 [lut_16_7_default]
+Compiling architecture behavioral of entity xil_defaultlib.AU_7_Seg [au_7_seg_default]
+Compiling architecture behavioral of entity xil_defaultlib.au_7_seg_tb
+Built simulation snapshot AU_7_Seg_TB_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Semester 02/Computer Organization And digital Design/New Labs/New Lab 07/lab7/lab7.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "AU_7_Seg_TB_behav -key {Behavioral:sim_1:Functional:AU_7_Seg_TB} -tclbatch {AU_7_Seg_TB.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source AU_7_Seg_TB.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'AU_7_Seg_TB_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Semester 02/Computer Organization And digital Design/New Labs/New Lab 07/lab7/lab7.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'AU_7_Seg_TB' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Semester 02/Computer Organization And digital Design/New Labs/New Lab 07/lab7/lab7.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj AU_7_Seg_TB_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Semester 02/Computer Organization And digital Design/New Labs/New Lab 07/lab7/lab7.srcs/sim_1/new/AU_7_Seg_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity AU_7_Seg_TB
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Semester 02/Computer Organization And digital Design/New Labs/New Lab 07/lab7/lab7.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 9d48981119c14555908026f238180c1d --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot AU_7_Seg_TB_behav xil_defaultlib.AU_7_Seg_TB -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.Slow_Clk [slow_clk_default]
+Compiling architecture behavioral of entity xil_defaultlib.Reg [reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.HA [ha_default]
+Compiling architecture behavioral of entity xil_defaultlib.FA [fa_default]
+Compiling architecture behavioral of entity xil_defaultlib.RCA_4 [rca_4_default]
+Compiling architecture behavioral of entity xil_defaultlib.AU [au_default]
+Compiling architecture behavioral of entity xil_defaultlib.LUT_16_7 [lut_16_7_default]
+Compiling architecture behavioral of entity xil_defaultlib.AU_7_Seg [au_7_seg_default]
+Compiling architecture behavioral of entity xil_defaultlib.au_7_seg_tb
+Built simulation snapshot AU_7_Seg_TB_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Semester 02/Computer Organization And digital Design/New Labs/New Lab 07/lab7/lab7.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "AU_7_Seg_TB_behav -key {Behavioral:sim_1:Functional:AU_7_Seg_TB} -tclbatch {AU_7_Seg_TB.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source AU_7_Seg_TB.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'AU_7_Seg_TB_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+current_sim simulation_4
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit

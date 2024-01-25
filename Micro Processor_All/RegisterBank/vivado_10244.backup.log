@@ -1,0 +1,55 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sun Jun  4 08:50:14 2023
+# Process ID: 10244
+# Current directory: D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/RegisterBank
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6880 D:\Semester 02\Computer Organization And digital Design\New Labs\Micro Processor\RegisterBank\RegisterBank.xpr
+# Log file: D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/RegisterBank/vivado.log
+# Journal file: D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/RegisterBank\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/RegisterBank/RegisterBank.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/RegisterBank'
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'.
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/RegisterBank/RegisterBank.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Register_Bank_Sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/RegisterBank/RegisterBank.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj Register_Bank_Sim_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/RegisterBank/RegisterBank.srcs/sources_1/imports/new/Decoder_3_to_8.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Decoder_3_to_8
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/RegisterBank/RegisterBank.srcs/sources_1/imports/new/Reg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Reg
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/RegisterBank/RegisterBank.srcs/sources_1/imports/new/Slow_Clk.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Slow_Clk
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/RegisterBank/RegisterBank.srcs/sources_1/new/RegisterBank.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RegisterBank
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/RegisterBank/RegisterBank.srcs/sim_1/new/Register_Bank_Sim.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RegisterBank_Sim
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/RegisterBank/RegisterBank.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 94deb4a8801e4d14999dda66b10f041b --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Register_Bank_Sim_behav xil_defaultlib.Register_Bank_Sim -log elaborate.log 
+Using 2 slave threads.
+ERROR: [XSIM 43-3225] Cannot find design unit xil_defaultlib.Register_Bank_Sim in library work located at xsim.dir/work.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/RegisterBank/RegisterBank.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/RegisterBank/RegisterBank.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Jun  4 08:52:01 2023...

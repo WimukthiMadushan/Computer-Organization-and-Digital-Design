@@ -1,0 +1,6 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Micro processer.srcs/sim_1/new/Program_Counter_TB.vhd" \
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,98 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sat Jun 10 21:16:27 2023
+# Process ID: 12208
+# Current directory: D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/Micro processer
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18616 D:\Semester 02\Computer Organization And digital Design\New Labs\Micro Processor\Micro processer\Micro processer.xpr
+# Log file: D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/Micro processer/vivado.log
+# Journal file: D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/Micro processer\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/Micro processer/Micro processer.xpr}
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top ProgramCounter [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top ProgramCounter_TB [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+open_wave_config {D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/Micro processer/MicroProcesser_TB_behav.wcfg}
+source ProgramCounter_TB.tcl
+close_sim
+launch_simulation
+open_wave_config {D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/Micro processer/MicroProcesser_TB_behav.wcfg}
+source ProgramCounter_TB.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top MicroProcesser [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top MicroProcesser_TB [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+open_wave_config {D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/Micro processer/MicroProcesser_TB_behav.wcfg}
+source MicroProcesser_TB.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top Program_Rom [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top Program_Rom_TB [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_simulation
+open_wave_config {D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/Micro processer/MicroProcesser_TB_behav.wcfg}
+source Program_Rom_TB.tcl
+export_ip_user_files -of_objects  [get_files {{D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/Micro processer/Micro processer.srcs/constrs_1/imports/Computer Organization And digital Design/Basys3Labs.xdc}}] -no_script -reset -force -quiet
+remove_files  -fileset constrs_1 {{D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/Micro processer/Micro processer.srcs/constrs_1/imports/Computer Organization And digital Design/Basys3Labs.xdc}}
+file delete -force {D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/Micro processer/Micro processer.srcs/constrs_1/imports/Computer Organization And digital Design/Basys3Labs.xdc}
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+close_sim
+launch_simulation
+open_wave_config {D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/Micro processer/MicroProcesser_TB_behav.wcfg}
+source Program_Rom_TB.tcl
+current_wave_config {MicroProcesser_TB_behav.wcfg}
+add_wave {{/Program_Rom_TB/UUT}} 
+save_wave_config {D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/Micro processer/MicroProcesser_TB_behav.wcfg}
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top MicroProcesser_TB [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+current_sim simulation_3
+close_sim
+launch_simulation
+open_wave_config {D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/Micro processer/MicroProcesser_TB_behav.wcfg}
+source MicroProcesser_TB.tcl
+close_sim
+current_sim simulation_5
+close_sim
+close_sim

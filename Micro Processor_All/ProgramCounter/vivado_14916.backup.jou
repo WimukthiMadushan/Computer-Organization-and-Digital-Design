@@ -1,0 +1,30 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sat Jun  3 22:22:15 2023
+# Process ID: 14916
+# Current directory: D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/ProgramCounter
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3052 D:\Semester 02\Computer Organization And digital Design\New Labs\Micro Processor\ProgramCounter\ProgramCounter.xpr
+# Log file: D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/ProgramCounter/vivado.log
+# Journal file: D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/ProgramCounter\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/Semester 02/Computer Organization And digital Design/New Labs/Micro Processor/ProgramCounter/ProgramCounter.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+source ProgramCounter.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top Program_Counter_TB [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+source Program_Counter_TB.tcl
+close_sim
+launch_simulation
+source Program_Counter_TB.tcl
+close_sim
+close_sim

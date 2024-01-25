@@ -1,0 +1,77 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sun Jun  4 09:57:09 2023
+# Process ID: 3024
+# Current directory: D:/Semester 02/Computer Organization And digital Design/New Labs/New Lab 07/lab7
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7100 D:\Semester 02\Computer Organization And digital Design\New Labs\New Lab 07\lab7\lab7.xpr
+# Log file: D:/Semester 02/Computer Organization And digital Design/New Labs/New Lab 07/lab7/vivado.log
+# Journal file: D:/Semester 02/Computer Organization And digital Design/New Labs/New Lab 07/lab7\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/Semester 02/Computer Organization And digital Design/New Labs/New Lab 07/lab7/lab7.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+source AU_7Seg_Sim.tcl
+close_sim
+launch_simulation
+source AU_7Seg_Sim.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top AU_7_Seg [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+source AU_7_Seg.tcl
+close_sim
+launch_simulation
+source AU_7_Seg.tcl
+export_ip_user_files -of_objects  [get_files {{D:/Semester 02/Computer Organization And digital Design/New Labs/New Lab 07/lab7/lab7.srcs/sim_1/new/AU_7Seg_Sim.vhd}}] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 {{D:/Semester 02/Computer Organization And digital Design/New Labs/New Lab 07/lab7/lab7.srcs/sim_1/new/AU_7Seg_Sim.vhd}}
+file delete -force {D:/Semester 02/Computer Organization And digital Design/New Labs/New Lab 07/lab7/lab7.srcs/sim_1/new/AU_7Seg_Sim.vhd}
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open {D:/Semester 02/Computer Organization And digital Design/New Labs/New Lab 07/lab7/lab7.srcs/sim_1/new/AU_7_Seg_TB.vhd} w ]
+add_files -fileset sim_1 {{D:/Semester 02/Computer Organization And digital Design/New Labs/New Lab 07/lab7/lab7.srcs/sim_1/new/AU_7_Seg_TB.vhd}}
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top AU_7_Seg_TB [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+source AU_7_Seg_TB.tcl
+close_sim
+launch_simulation
+source AU_7_Seg_TB.tcl
+close_sim
+launch_simulation
+source AU_7_Seg_TB.tcl
+close_sim
+launch_simulation
+current_sim simulation_4
+launch_simulation
+launch_simulation
+launch_simulation
+source AU_7_Seg_TB.tcl
+close_sim
+current_sim simulation_4
+launch_simulation
+source AU_7_Seg_TB.tcl
+close_sim
+launch_simulation
+source AU_7_Seg_TB.tcl
+close_sim
+launch_simulation
+source AU_7_Seg_TB.tcl
+close_sim
+launch_simulation
+source AU_7_Seg_TB.tcl
+close_sim
+current_sim simulation_4
+close_sim
+close_sim
